@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey | Student Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html" class="logo">Official <span>Roger</span></a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="survey.html" class="active">Survey</a></li>
+    </ul>
+    <button id="toggleMode" aria-label="Toggle dark/light mode"><i id="toggleModeIcon" class="fa-regular fa-moon"></i></button>
+  </nav>
+  <main>
+    <section class="survey-section">
+      <h2>Quick <span class="highlight">Survey</span></h2>
+      <form id="surveyForm" class="survey-form-card">
+        <fieldset>
+          <legend>How did you find my portfolio?</legend>
+          <label><input type="radio" name="source" value="search" required> Search Engine</label>
+          <label><input type="radio" name="source" value="friend"> Friend</label>
+          <label><input type="radio" name="source" value="other"> Other</label>
+        </fieldset>
+        <fieldset>
+          <legend>What are you interested in?</legend>
+          <label><input type="checkbox" name="interest" value="animation"> Animation</label>
+          <label><input type="checkbox" name="interest" value="graphics"> Graphics Design</label>
+          <label><input type="checkbox" name="interest" value="video"> Video Editing</label>
+        </fieldset>
+        <label for="feedback">Your Feedback:</label>
+        <textarea id="feedback" name="feedback" required></textarea>
+        <button type="submit" class="btn" style="background: #ff6f61;">Submit</button>
+      </form>
+      <p id="surveyMsg"></p>
+    </section>
+  </main>
+  <!-- Footer Section -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <h2><span style="color:#181c2f;">Official</span><span style="color:#ff6f61;">Roger</span></h2>
+        <p>Creating captivating animations and multimedia experiences that tell your story.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter fa-lg"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram fa-lg"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in fa-lg"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h3>Contact Info</h3>
+        <p><i class="fas fa-envelope"></i> <a href="rogersmwangomale@gmail.com">rogersmwangomale@gmail.com</a></p>
+        <p><i class="fas fa-phone"></i> +255 763 112 145</p>
+      </div>
+    </div>
+    <hr>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Official Roger. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

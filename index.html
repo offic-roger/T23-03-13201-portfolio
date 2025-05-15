@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Portfolio of a Multimedia Technology and Animation student">
+  <meta name="keywords" content="Animation, Motion Graphics, Video Editing, Graphics Design, Portfolio">
+  <meta name="author" content="rogers nigar">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Student Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html" class="logo">Official <span>Roger</span></a>
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="survey.html">Survey</a></li>
+    </ul>
+    <button id="toggleMode" aria-label="Toggle dark/light mode"><i id="toggleModeIcon" class="fa-regular fa-moon"></i></button>
+  </nav>
+  <main>
+    <!-- HERO SECTION (Reference Style) -->
+    <section class="hero-v2">
+      <div id="greeting" class="hero-greeting"></div>
+      <div class="hero-left">
+        <div class="hero-role">
+          <span class="dot"></span> <span class="role-title">Animation & Multimedia Student</span>
+          <div class="role-location">Based in Tanzania</div>
+        </div>
+        <div class="hero-contact">
+          <span class="dot gray"></span> <span class="contact-label">Say hello to</span>
+          <div class="contact-email"><a href="mailto:your@email.com">rogersmwangomale@gmail.com</a></div>
+        </div>
+        <div class="hero-social">
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="hero-center">
+        <div class="hero-img-bg-wrap">
+          <img src="images/EP8A2654-removebg-preview.png" alt="Student portrait" class="hero-img-main" />
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="hero-stat">
+          <div class="stat-value">100%</div>
+          <div class="stat-label">Client Satisfaction</div>
+        </div>
+        <div class="hero-stat">
+          <div class="stat-value">90+</div>
+          <div class="stat-label">Project Done</div>
+        </div>
+        <div class="hero-stat">
+          <div class="stat-value">2+</div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+      </div>
+      <div class="hero-name">
+        <span>Official Roger</span>
+      </div>
+      <div class="hero-project-cta">
+        <span>Do you have a project?</span> <a href="rogersmwangomale@gmail.com"><span class="cta-link">Let's Talk</span></a>
+      </div>
+    </section>
+
+    <!-- ABOUT ME SECTION (Reference Style) -->
+    <section class="about-v2" id="about">
+      <div class="about-img-wrap">
+        <div class="about-img-bg"></div>
+        <img src="images/EP8A2654-removebg-preview.png" alt="Student portrait" class="about-img" />
+        <div class="about-badge">
+          <span class="about-badge-emoji">😍</span> <span class="about-badge-num">80+</span> <span class="about-badge-label">Happy Clients</span>
+        </div>
+      </div>
+      <div class="about-content">
+        <div class="about-label">About Me <i class="fa-regular fa-gem"></i></div>
+        <h2 class="about-title">Why you <span class="highlight">hire me</span> for your <span class="highlight2">next project?</span></h2>
+        <div class="about-tabs">
+          <button class="about-tab active" data-tab="myself">MYSELF</button>
+          <button class="about-tab" data-tab="education">EDUCATION</button>
+          <button class="about-tab" data-tab="tools">MY TOOLS</button>
+        </div>
+        <div class="about-tab-content" id="about-tab-myself">
+          <p>Hello! I'm a passionate student pursuing a Bachelor of Science in Multimedia Technology and Animation at the University of Dodoma. I love creating captivating animations, motion graphics, and visual stories that inspire and engage audiences.</p>
+        </div>
+        <div class="about-tab-content" id="about-tab-education" style="display:none">
+          <ul>
+            <li><strong>Primary School:</strong> Magereza Primary School</li>
+            <li><strong>O-Level:</strong> Bujinga Secondary School</li>
+            <li><strong>A-Level:</strong> Iyunga Technical Secondary School</li>
+            <li><strong>University:</strong> University of Dodoma – College of Informatics and Virtual Education</li>
+          </ul>
+        </div>
+        <div class="about-tab-content" id="about-tab-tools" style="display:none">
+          <ul>
+            <li>Animation (2D & 3D)</li>
+            <li>Motion Graphics</li>
+            <li>Video Editing</li>
+            <li>Graphics Design (Logo, Poster, Branding)</li>
+          </ul>
+        </div>
+        <a href="mailto:your@email.com" class="btn about-hire-btn">Hire Me</a>
+      </div>
+    </section>
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <h2>My Services</h2>
+      <div class="services-grid">
+        <div class="service">
+          <i class="fas fa-film fa-2x"></i>
+          <h3>Animation</h3>
+          <p>2D & 3D animation for stories, ads, and explainer videos.</p>
+        </div>
+        <div class="service">
+          <i class="fas fa-wave-square fa-2x"></i>
+          <h3>Motion Graphics</h3>
+          <p>Dynamic motion graphics for branding and presentations.</p>
+        </div>
+        <div class="service">
+          <i class="fas fa-scissors fa-2x"></i>
+          <h3>Video Editing</h3>
+          <p>Professional video editing for YouTube, social media, and more.</p>
+        </div>
+        <div class="service">
+          <i class="fas fa-paint-brush fa-2x"></i>
+          <h3>Graphics Design</h3>
+          <p>Logos, posters, and digital art for your creative needs.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Featured Projects Section -->
+    <section class="featured-projects" id="projects">
+      <h2>Featured Projects</h2>
+      <div class="projects-grid">
+        <article class="project">
+          <img src="images/projects/shule-p.jpg" alt="2D Animation Project">
+          <h3>2D Animation Short</h3>
+          <p>A short film using 2D animation techniques to tell a unique story.</p>
+        </article>
+        <article class="project">
+          <img src="images/projects/Annotation 2025-05-15 225906.jpg" alt="Motion Graphics Project">
+          <h3>Brand Motion Graphics</h3>
+          <p>Animated branding elements for a startup's launch campaign.</p>
+        </article>
+        <article class="project">
+          <img src="images/projects/Annotation 2025-05-15 225819.jpg" alt="Video Editing Project">
+          <h3>Music Video Edit</h3>
+          <p>Creative editing and effects for an indie music video.</p>
+        </article>
+        <article class="project">
+          <img src="images/projects/proj001.jpg" alt="Graphics Design Project">
+          <h3>Poster Design</h3>
+          <p>Eye-catching poster for a local event, blending illustration and typography.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+  <!-- Footer Section -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <h2><span style="color:#181c2f;">Official</span><span style="color:#ff6f61;">Roger</span></h2>
+        <p>Creating captivating animations and multimedia experiences that tell your story.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter fa-lg"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram fa-lg"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in fa-lg"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h3>Contact Info</h3>
+        <p><i class="fas fa-envelope"></i> <a href="rogersmwangomale@gmail.com">rogersmwangomale@gmail.com</a></p>
+        <p><i class="fas fa-phone"></i> +255 763 112 145</p>
+      </div>
+    </div>
+    <hr>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Official Roger. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
